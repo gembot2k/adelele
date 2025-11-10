@@ -143,5 +143,3 @@ TERIMA KASIH ATAS WAKTUNYA
 ```
 
 ---
-
-Apakah kamu mau saya buatkan file `.md`-nya langsung biar bisa kamu unduh (misalnya `Laporan_Uji_Praktik_Informatika.md`)?
