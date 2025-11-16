@@ -1,15 +1,15 @@
 ## Code Membuat Mie Kuah
 
 ```python3
-# Membuat fungsi utama untuk membuat mie kuah
+# Membuat 'fungsi' utama untuk membuat mie kuah
 def membuat_mie_kuah():
-    # Membuat array untuk menampung alat dan bahan
+    # Membuat 'array' untuk menyimpan alat dan bahan
     alat_dan_bahan = ["Panci", "Kompor", "Air", "Indomie", "Mangkuk", "Garpu"]
     
     # Menampilkan daftar alat dan bahan
     print("Langkah 1: Menyiapkan alat dan bahan.")
 
-    # Menggunakan loop untuk menampilkan item dari array alat_dan_bahan
+    # Menggunakan 'loop' untuk menampilkan item dari array alat_dan_bahan
     for item in alat_dan_bahan:
         # Menampilkan setiap alat dan bahan yang disiapkan
         print("-", item)
@@ -40,7 +40,7 @@ def membuat_mie_kuah():
             # Menampilan waktu sampai 5 menit
             print(f"Menunggu {menit} menit...")
         
-        # Menampilkan langkah-langkah akhit
+        # Menampilkan langkah-langkah akhir
         print("\nLangkah 6: Mie sudah matang, mengangkat mie dan kuah ke mangkuk.")
         print("\nLangkah 7: Memasukkan bumbu.")
         print("\nLangkah 8: Mengaduk hingga merata.")
