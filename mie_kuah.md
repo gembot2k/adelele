@@ -1,61 +1,55 @@
 ## Code Membuat Mie Kuah
 
 ```python3
-# Mendefinisikan fungsi utama untuk membuat mie kuah
+# MMembuat fungsi utama untuk membuat mie kuah
 def buat_mie_kuah():
-    # --- Komponen 1: Variable & 2: Array (List) ---
-    # Membuat variable berupa array/list untuk menampung alat dan bahan
-    alat_dan_bahan = ["Panci", "Kompor", "Air", "Indomie", "Mangkuk", "Garpu", "Bumbu"]
+    # Membuat array untuk menampung alat dan bahan
+    alat_dan_bahan = ["Panci", "Kompor", "Air", "Indomie", "Mangkuk", "Garpu"]
     
-    # Menampilkan langkah pertama: menyiapkan alat dan bahan
+    # Menampilkan daftar alat dan bahan
     print("Langkah 1: Menyiapkan alat dan bahan.")
-    # --- Komponen 3: Loop ---
-    # Menggunakan loop untuk menampilkan setiap item dalam array alat_dan_bahan
+
+    # Menggunakan loop untuk menampilkan item dari array alat_dan_bahan
     for item in alat_dan_bahan:
-        # Mencetak setiap alat dan bahan yang disiapkan
+        # Menampilkan setiap alat dan bahan yang disiapkan
         print(f"- {item}")
 
-    # Menampilkan langkah kedua dan ketiga: merebus air
-    print("\nLangkah 2 & 3: Memasukkan air ke panci dan merebusnya.")
-    # Membuat variable boolean untuk status air (awalnya belum mendidih)
-    air_mendidih = False
-    # Mensimulasikan proses pemanasan
-    print("Menyalakan kompor, menunggu air mendidih...")
-    # Mengubah nilai variable menjadi True karena air sudah mendidih
-    air_mendidih = True
 
-    # --- Komponen 4: If ---
+    # Membuat variable untuk status air (awalnya belum mendidih)
+    air_mendidih = "tidak"
+
+    # Memasukkan air ke panci dan merebusnya hingga mendidih
+    print("\nLangkah 2: Memasukkan air ke panci dan rebus hingga mendidih.")
+    print("\nLangkah 3: Rebus air hingga mendidih.")
+    
+    # Mengubah variable menjadi "ya" karena air sudah mendidih
+    air_mendidih = "ya"
+
     # Menggunakan 'if' untuk mengecek kondisi apakah air sudah mendidih
-    if air_mendidih:
-        # Jika True, cetak pesan bahwa air sudah mendidih
+    if (air_mendidih == "ya"):
+        # Jika sudah mendidih, menampilkan air sudah mendidih
         print("Air sudah mendidih!")
+
         # Menampilkan langkah keempat: memasukkan mie
         print("\nLangkah 4: Memasukkan mie ke dalam air mendidih.")
         
         # Menampilkan langkah kelima: menunggu 5 menit
         print("\nLangkah 5: Menunggu mie matang selama 5 menit.")
-        # Menggunakan loop 'for' untuk simulasi penungguan dari menit 1 hingga 5
+
+        # Menggunakan loop untuk simulasi menunggu dari menit 1 hingga 5
         for menit in range(1, 6):
-            # Mencetak proses penungguan setiap menitnya
+            # Menampilan waktu sampai 5 menit
             print(f"Menunggu {menit} menit...")
         
-        # Menampilkan langkah-langkah terakhir
+        # Menampilkan langkah-langkah akhit
         print("\nLangkah 6: Mie sudah matang, mengangkat mie dan kuah ke mangkuk.")
-        print("Langkah 7: Memasukkan bumbu.")
-        print("Langkah 8: Mengaduk hingga merata.")
+        print("\nLangkah 7: Memasukkan bumbu.")
+        print("\nLangkah 8: Mengaduk hingga merata.")
+
         print("\nLangkah Terakhir: Mie kuah siap disantap! 🍜")
 
 # Memanggil fungsi utama untuk menjalankan program
 buat_mie_kuah()
-
-# --- Print Hasil Capture dari Code ---
-# Mencetak garis pemisah untuk hasil akhir
-print("\n" + "="*40)
-# Mencetak pesan bahwa simulasi telah selesai
-print("Hasil: Program berhasil mensimulasikan")
-print("algoritma membuat mie kuah dari flowchart.")
-# Mencetak garis pemisah
-print("="*40)
 ```
 
 ## Hasil print dari code
@@ -67,10 +61,10 @@ Langkah 1: Menyiapkan alat dan bahan.
 - Indomie
 - Mangkuk
 - Garpu
-- Bumbu
 
-Langkah 2 & 3: Memasukkan air ke panci dan merebusnya.
-Menyalakan kompor, menunggu air mendidih...
+Langkah 2: Memasukkan air ke panci dan rebus hingga mendidih.
+
+Langkah 3: Rebus air hingga mendidih.
 Air sudah mendidih!
 
 Langkah 4: Memasukkan mie ke dalam air mendidih.
@@ -83,7 +77,9 @@ Menunggu 4 menit...
 Menunggu 5 menit...
 
 Langkah 6: Mie sudah matang, mengangkat mie dan kuah ke mangkuk.
+
 Langkah 7: Memasukkan bumbu.
+
 Langkah 8: Mengaduk hingga merata.
 
 Langkah Terakhir: Mie kuah siap disantap! 🍜
