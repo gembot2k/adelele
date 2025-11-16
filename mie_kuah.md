@@ -87,10 +87,5 @@ Langkah 7: Memasukkan bumbu.
 Langkah 8: Mengaduk hingga merata.
 
 Langkah Terakhir: Mie kuah siap disantap! 🍜
-
-========================================
-Hasil: Program berhasil mensimulasikan
-algoritma membuat mie kuah dari flowchart.
-========================================
 ```
 
