@@ -57,3 +57,40 @@ print("algoritma membuat mie kuah dari flowchart.")
 # Mencetak garis pemisah
 print("="*40)
 ```
+
+## Hasil print dari code
+```
+Langkah 1: Menyiapkan alat dan bahan.
+- Panci
+- Kompor
+- Air
+- Indomie
+- Mangkuk
+- Garpu
+- Bumbu
+
+Langkah 2 & 3: Memasukkan air ke panci dan merebusnya.
+Menyalakan kompor, menunggu air mendidih...
+Air sudah mendidih!
+
+Langkah 4: Memasukkan mie ke dalam air mendidih.
+
+Langkah 5: Menunggu mie matang selama 5 menit.
+Menunggu 1 menit...
+Menunggu 2 menit...
+Menunggu 3 menit...
+Menunggu 4 menit...
+Menunggu 5 menit...
+
+Langkah 6: Mie sudah matang, mengangkat mie dan kuah ke mangkuk.
+Langkah 7: Memasukkan bumbu.
+Langkah 8: Mengaduk hingga merata.
+
+Langkah Terakhir: Mie kuah siap disantap! 🍜
+
+========================================
+Hasil: Program berhasil mensimulasikan
+algoritma membuat mie kuah dari flowchart.
+========================================
+```
+
