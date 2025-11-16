@@ -12,8 +12,7 @@ def membuat_mie_kuah():
     # Menggunakan loop untuk menampilkan item dari array alat_dan_bahan
     for item in alat_dan_bahan:
         # Menampilkan setiap alat dan bahan yang disiapkan
-        print(f"- {item}")
-
+        print("-", item)
 
     # Membuat variable untuk status air (awalnya belum mendidih)
     air_mendidih = "tidak"
