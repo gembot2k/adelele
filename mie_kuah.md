@@ -1,8 +1,8 @@
 ## Code Membuat Mie Kuah
 
 ```python3
-# MMembuat fungsi utama untuk membuat mie kuah
-def buat_mie_kuah():
+# Membuat fungsi utama untuk membuat mie kuah
+def membuat_mie_kuah():
     # Membuat array untuk menampung alat dan bahan
     alat_dan_bahan = ["Panci", "Kompor", "Air", "Indomie", "Mangkuk", "Garpu"]
     
@@ -49,7 +49,7 @@ def buat_mie_kuah():
         print("\nLangkah Terakhir: Mie kuah siap disantap! 🍜")
 
 # Memanggil fungsi utama untuk menjalankan program
-buat_mie_kuah()
+membuat_mie_kuah()
 ```
 
 ## Hasil print dari code
@@ -84,4 +84,3 @@ Langkah 8: Mengaduk hingga merata.
 
 Langkah Terakhir: Mie kuah siap disantap! 🍜
 ```
-
